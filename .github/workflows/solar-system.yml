@@ -6,6 +6,10 @@ on:
     branches:
       - main
       - 'feature/*'
+      
+permissions:
+  actions: read
+  contents: read      
 
 env:
   MONGO_URI: 'mongodb+srv://supercluster.d83jj.mongodb.net/superData'  
